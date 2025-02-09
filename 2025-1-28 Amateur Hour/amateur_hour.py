@@ -11,10 +11,6 @@ def hoursPassed(time1,time2):
     else:
         return f"{t2-t1} hours"
     
-
-
-
-
 assert hoursPassed("3:00 AM", "9:00 AM") == "6 hours", "Error"
 assert hoursPassed("2:00 PM", "4:00 PM") == "2 hours", "Error"
 assert hoursPassed("1:00 AM", "3:00 PM") == "14 hours", "Error"

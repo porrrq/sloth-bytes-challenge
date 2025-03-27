@@ -23,4 +23,3 @@ def bridge_suffle(l1, l2):
 # Test case
 assert bridge_suffle(["A", "A", "A"], ["B", "B", "B"]) == ["A", "B", "A", "B", "A", "B"], "Error"
 assert bridge_suffle(["C", "C", "C", "C"], ["D"]) == ["C", "D", "C", "C", "C"], "Error"
-
